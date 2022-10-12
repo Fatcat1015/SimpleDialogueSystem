@@ -1,0 +1,20 @@
+How To Use Simple Dialogue System:
+
+YOU MUST HAVE TMPRO INSTALLED!
+
+Unity Version: 2021.3.9f1
+
+1. create a UI Cancas, put Dialogue Manager Prefab into your scene, make sure the Dialogue Manager is in your canvas
+2. Import your Dialogue. The dialogue should follow the format "CharacterName" + : + "Dialogue"
+3. In the DialogueManager Inspector, put the link to your txt file in the filepath field (YOU MUST put .txt after the path) eg. Assets/Dialogue/SampleDialogue.txt
+4. Import character portrait if you have any. If you don't want to use portraits, DELETE the allPortraits and allCharacterNames list in DialogueManager by setting the item number to 0
+5. (optional)If you want to use portraits, put the sprites in allPortraits List in DialogueManager, and their corresponding name in the allCharactersName List (Put them in the same index)
+
+You can also display different dialogues by calling the StartDialogue() function and changing the filepath in DialogueManager
+
+If you have any questions feel free to DM me! 
+Discord: mico#6952
+
+credits:
+Sample Button & Text Box sprite done by Kelly(Kunhui) Wang
+Portraits done by Yunfei Gao
